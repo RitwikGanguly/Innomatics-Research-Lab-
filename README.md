@@ -1,3 +1,3 @@
 # Innomatics-Research-Lab-
-- In this repository I will upload the Hackathon solution of Innomatics Research Lab
-- Thanks for the opportunity
+- In this repository I will upload some important projects and tasks of Innomatics Research Lab
+- Get updated everyday
