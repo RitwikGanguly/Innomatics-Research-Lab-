@@ -1,13 +1,9 @@
 import streamlit as st
 from PIL import Image
-import os
 
 from pathlib import Path
 
-os.chdir(r"C:\Users\RITWIK GANGULY\PycharmProjects\Streamlit_ritwik\Proj_2")
-
 cur_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
-# css_file = cur_dir / "styles" / "main.css"
 resume_file = cur_dir / "assets" / "cv.pdf"
 prof_pic = cur_dir / "assets" / "profile-pic.png"
 
@@ -36,10 +32,8 @@ st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
 st.title("Hi!! :red[Everyone]")
 st.subheader("welcome all 😎😎😎😎")
 
-# Load css, pdf and profile pic
+# Load pdf and profile pic
 
-# with open(css_file) as f:
-#     st.markdown("<style>{}</style>".format(f.read()), unsafe_allow_html=True)
 
 with open(resume_file, "rb") as pdf_file:
     pdf = pdf_file.read()
